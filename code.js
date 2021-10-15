@@ -1,5 +1,7 @@
 // CREATED BY DARIO PASSARIELLO
-// Copiright 2020
+// Copyright 2020
+
+// This function remove element from a multidimensional array using uuid or similar ( important that need to be unique value )
 
 const DeleteElementFromArray = ( array, id ) =>{
     array.some(function iter (o,i,a) {
