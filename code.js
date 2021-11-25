@@ -1,5 +1,7 @@
 // CREATED BY DARIO PASSARIELLO
-// Copiright 2021
+// Copyright 2021
+
+// This function remove element from a multidimensional array using uuid or similar ( important that need to be unique value )
 
 const DeleteElementFromArray = ( array, id ) =>{
   
@@ -10,7 +12,7 @@ const DeleteElementFromArray = ( array, id ) =>{
         }
         
         var key = Object.keys(o)
-        
+       
         for (let key of Object.keys(o)) {        
           let value = o[key]
           if(value?.length && typeof value === 'object') return value && value.map(iter)
@@ -24,4 +26,3 @@ const DeleteElementFromArray = ( array, id ) =>{
     })
     
 }
-
