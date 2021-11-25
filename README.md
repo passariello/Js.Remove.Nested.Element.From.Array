@@ -1,6 +1,6 @@
 # Js.Remove.Nested.Element.From.Array
 
-usage:
+array:
 your_multidimensional_array =
 [
     {
@@ -15,6 +15,7 @@ your_multidimensional_array =
     }
 ]
 
+usage:
 your_uuid = 69967e2d-b44e-431e-a012-9b18126ed34b
 
 Example:
